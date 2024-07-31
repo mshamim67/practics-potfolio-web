@@ -27,6 +27,19 @@ nav > ul{
 
 
 }
+
+
+.section-title{
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.sec-des {
+  color: #757575;
+ text-align: center;
+  font-size: 18px;
+}
 nav li{
 list-style: none;
 margin-right: 50px;
@@ -45,12 +58,14 @@ white-space:nowrap;
   font-weight: 700;
   padding: 15px 20px;
   background-color: #FD6E0A;
-  transition: all 1s ease-in-out;
+  transition: all 0.2s ease-in-out;
   cursor: pointer;
+
+
 
 }
 .btn:active {
-  transform: scale(0.3);
+  transform: scale(0.8);
 
 }
 .hdr {
@@ -70,11 +85,29 @@ white-space:nowrap;
   height: auto;
   max-height: 60vh;
 }
+.banner-wellcom {
+  font-size: 35px;
+  color: #474747;
+  margin-bottom: 0;
+}
+.banner-title{
+font-size: 75px;
+font-weight: 700;
+color: #474747;
+margin-bottom: 20px;
+}
+
+.banner-contant {
+  max-width: 500;
+}
 
 
-
-
-
+.about {
+  padding: 130px;
+  border-radius: 10px;
+  background: #FFF8F3;
+  margin: 130px 0;
+}
 
 
 

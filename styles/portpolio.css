@@ -121,7 +121,9 @@ main {
 .about-info {
   text-align: center;
 }
-
+#wid {
+  padding: 30px 150px;
+}
 
 
 

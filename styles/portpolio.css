@@ -12,7 +12,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin:0 200px ;
+  max-width:80vw ;
+  margin: 0 auto;
 
 }
 .nav-title {
@@ -44,20 +45,31 @@ white-space:nowrap;
   font-weight: 700;
   padding: 15px 20px;
   background-color: #FD6E0A;
+  transition: all 1s ease-in-out;
+  cursor: pointer;
+
+}
+.btn:active {
+  transform: scale(0.3);
 
 }
 .hdr {
   background-color: #FFF8F3;
 }
 .banner  {
-  padding: 30px 30px 30px 150px;
+  /* padding: 30px 30px 30px 150px; */
   display: flex;
+  align-items: center;
+  max-width: 80vw;
+  width: 100%;
+  margin: 0px auto;
   
 }
 .banner .pic {
-  width: 200px;
+  
+  height: auto;
+  max-height: 60vh;
 }
-
 
 
 

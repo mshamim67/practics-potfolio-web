@@ -109,6 +109,19 @@ margin-bottom: 20px;
   margin: 130px 0;
 }
 
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.about-info-containar {
+  display: flex;
+  justify-content: space-around;
+
+}
+.about-info {
+  text-align: center;
+}
+
 
 
 
